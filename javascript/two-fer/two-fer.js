@@ -3,7 +3,6 @@
 // convenience to get you started writing code faster.
 //
 
-export const twoFer = (name) => {
-    let person = name ? name : 'you' 
-    return `One for ${person}, one for me.`  
+export const twoFer = (name = 'you') => {
+    return `One for ${name}, one for me.`  
 };
