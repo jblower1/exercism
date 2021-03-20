@@ -1,6 +1,4 @@
 import { annotate } from './minesweeper';
-import { createArrayBoard } from './minesweeper'
-import { rebuildStringBoard } from './minesweeper'
 
 describe(')', () => {
 
